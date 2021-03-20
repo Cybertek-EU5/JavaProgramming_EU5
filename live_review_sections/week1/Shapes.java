@@ -13,7 +13,7 @@ public class Shapes {
 		
 		System.out.println("\n---------------------------------");
 		
-		System.out.println("\t    ^");
+		System.out.println("\t    ^");  // shift + 6
 		System.out.println("\t   / \\");
 		System.out.println("\t  /   \\");
 		System.out.println("\t /     \\");
