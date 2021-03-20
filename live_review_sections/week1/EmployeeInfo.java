@@ -16,9 +16,13 @@ public class EmployeeInfo {
 		System.out.println("Employee name is: " + name);
 		System.out.println("Employee gender si: "+gender );
 		System.out.println("Company name is: "+companyName);
+		System.out.println("Employee ID is: "+employeeID);
 		// System.out.println("Employee' job title is: "+jobTitle);
 		System.out.println( name+" wants to be "+jobTitle);
-		System.out.println(name+" wants to make $"+salary+" a year");
+		System.out.println(name+" wants to make $"+(int)salary+" a year");
+		System.out.println("Employee is married: "+isMarried);
+		
+		
 		
 		
 		/*
