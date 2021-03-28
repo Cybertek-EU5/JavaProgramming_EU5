@@ -1,7 +1,7 @@
 package week1;
 
 public class EmployeeInfo {
-	
+
 	public static void main(String[] args) {
 		String name = "Daniel";
 		String companyName = "Apple";
