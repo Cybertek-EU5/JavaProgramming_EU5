@@ -22,6 +22,21 @@ public class UnaryOperators {
        // a2 = 4;
         
         System.out.println(a2);
+        
+        System.out.println("---------------------------");
+        
+        int x=5;
+        System.out.println("x " + x); // 5
+        
+        
+        x=x++;   // x= 5
+        //x = 5
+        
+        System.out.println("x " + x++);
+        //							5 ,  x = 6
+        
+        
+        System.out.println("x " + x);
 		
 		
 	}
