@@ -3,7 +3,7 @@ package week2;
 public class Notes {
 	
 	/*
-	 04/03/2021
+	04/03/2021
 Week 2 Java Review
 
 	Review topics: 
@@ -21,7 +21,7 @@ Week 2 Java Review
 
 		ternary:  ? , :
 
-		Switch Statements: case block, default block, break statement
+	
 
 
 Arithmetic operators: 
@@ -177,11 +177,83 @@ Logical Operators:
 				true ^ true ==> false
 				false ^ false ==> false
 
-
+come back at 2:10 pm US EST
 
 If statements:
+	
+	single if statement: for one condition, or option
+
+				if(Condition){
+					statements;	
+				}
 
 
+				if( eligible){
+					can buy alcohol
+				}
+
+				if ( not eligible){
+				 cannot by alcohol
+				}
+
+
+	if & else statement: 2 options or  2 possibile conditions (NOT MORE NOT LESS)
+
+			if(Condition){
+				statement A;
+			}else{
+				statement B;
+			}
+
+			if(eligible){
+				can buy alcohol
+			}else{
+				can not buy
+			}
+
+
+	multi-branch if statement: if there are more than two options or possible outcomes
+			// Excellent, reat, good, okay, bad
+
+			if(Condition1){
+				statementA;
+			}else if(Condition2){
+				statementB;
+			}else if(Condition3){
+				statementC;
+			}else{
+				statementD;
+			}
+
+
+
+	nested if: if the condition can be evaluated into multiple scenarios
+				if we have pre condition (Mandatory step)
+
+
+		A, B, C, D, F
+		Precondition: score MUST be valid if score   between 0 to 100
+
+
+		1-Monday, 2-Tuesday, 3-Wednesday, 4-Thursday, 5-Friday, 6-Saturday, 7-Sunday
+		precondition: number MUST be between 1-7
+
+
+		if(){
+			if statment
+		}
+
+
+ternary: shortcut of if statemnts
+		
+		? if keyword  
+			(condition)?   ==  if(Condition)
+
+		: else keyword
+			:(condition)?  == else if(Condition)
+			:   == else{ }
+
+		TOTAL NUMBER OF ? MUST BE EQUAL TO TOTAL NUMBER OF : IN TERNARY
 
 
 
