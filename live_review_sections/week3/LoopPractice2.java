@@ -43,9 +43,6 @@ public class LoopPractice2 {
  Task3:
         1. write a program that can print all even numbers between 0 ~ 1000
         2. write a program that can print all odd numbers between 0 ~ 1000
-        3. write a program that can print a~z
-        4. write a program that can print A~Z
-        5. write a program that can print z~a
-        6. write a program that can print Z~A
+     
 
  */
