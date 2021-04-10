@@ -22,6 +22,7 @@ public class SwitchStatementPractice {
 		int number = 20;
 		
 		switch(number) { //10
+		
 				
 			case 10:
 					System.out.println("A");
