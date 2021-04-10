@@ -9,6 +9,7 @@ public class MethodPractice {
 		
 		System.out.println(   isEven(200) );
 
+		System.out.println(factorialNumber(5) );
 		
 	}
 	
@@ -19,7 +20,17 @@ public class MethodPractice {
 	}
 	
 	// factorial number of 5:  5*4*3*2*1 = 120
-	
+	public static int factorialNumber(int number) {
+		
+		int result = 1;
+		while(number > 0) {
+			result *= number;
+			number--;
+		}
+		
+		
+		return result;
+	}
 	
 	
 
