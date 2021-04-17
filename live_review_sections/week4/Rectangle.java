@@ -12,10 +12,9 @@ public class Rectangle {
 		return 2*(width+length);
 	}
 
-	
 	public String toString() {
-		return "Rectangle [width=" + width + ", length=" + length + ", area= " +area()
-		+", perimeter= "+perimeter()+"]";
+		return "Rectangle [width=" + width + ", length=" + length + ", area=" +area()
+		+", perimeter="+perimeter()+"]";
 	}
 
 	
