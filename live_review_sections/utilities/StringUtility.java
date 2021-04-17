@@ -15,6 +15,12 @@ public class StringUtility {
 	}
 	
 	
+	// THis method can verify if a give string is palindrome, returns true or false
+	public static boolean isPalindrome(String str) {
+		return  reverse(str).equalsIgnoreCase(str);
+	}
+	
+	
 	
 
 }
