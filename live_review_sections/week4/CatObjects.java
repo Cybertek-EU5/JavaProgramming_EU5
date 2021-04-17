@@ -14,8 +14,16 @@ public class CatObjects {
 		Cat cat2 = new Cat();
 		cat2.setInfo("Mayko", 19, "scottish", "red","large" );
 		
+		Cat cat3 = new Cat();
+		cat3.setInfo("Bruce", 1, "persian", "black", "small");
+		
 		System.out.println(cat1);
 		System.out.println(cat2);
+		System.out.println(cat3);
+		
+		cat1.sleep();
+		cat2.eats("fish");
+		cat3.drinks("milk");
 		
 		
 		
