@@ -8,7 +8,7 @@ public class Calculator {
 
 		Scanner scan = new Scanner(System.in); // \n\n
 
-		while (true) {
+		while (true) {  // if user never says no, then we need to make sure the loop can run infinite times
 			System.out.println("Enter your first number");
 			int f = scan.nextInt(); // 10
 
@@ -18,7 +18,7 @@ public class Calculator {
 			System.out.println("Enter a math operator");
 			char operator = scan.next().charAt(0); // +, -, *, /
 
-			switch (operator) {
+			switch (operator) {  //calculate the result based on the operator
 				case '-': System.out.println("Subtraction: "+(f-s));
 						 break;
 						 
@@ -41,17 +41,18 @@ public class Calculator {
 			System.out.println("Do you want to continue?");
 			String a = scan.nextLine().toLowerCase();
 
-			while (!(a.equals("yes") || a.equals("no"))) { // if the answer is invalid
+			while (!(a.equals("yes") || a.equals("no"))) { // while the answer is invalid, we continue to ask user to re-enter
 				System.out.println("Invalid Entry, pelase re-enter");
 				a = scan.nextLine().toLowerCase();
-			}
+			}// to make sure user enters yes, or no
 
-			if (a.equals("no")) {
+			if (a.equals("no")) {  // if the users no, then exit the loop
 				System.out.println("Test Completed");
 				break;
 			}
 
 		}
+		
 
 		scan.close();
 
