@@ -45,8 +45,21 @@ public class StringUtility {
 			}
 			return count;
 		}
+		
+		// returns the frequency of the word from a sentence
+		public static int frequency(String sentence, String word) {
+			sentence = sentence.toLowerCase();
+			word =word.toLowerCase();
+			int count = 0;
+			while(sentence.contains(word)) {
+				sentence = sentence.replaceFirst(word, "");
+				count++;
+			}
+			
+			return count;
+		}
 
-		// returns the frequency of the characters from the string
+		// returns the frequency of each characters from the string
 		public static String frequencyOfChars(String str) {
 			String nonDup = removeDuplicates(str); // abc
 
