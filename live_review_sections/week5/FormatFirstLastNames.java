@@ -19,6 +19,7 @@ public class FormatFirstLastNames {
 		System.out.println("Enter your last name");
 		String l = scan.next();
 		scan.close();
+		
 		l = l.substring(0,1).toUpperCase() +l.substring(1).toLowerCase();
 		
 		String fullName = f +" "+l;
