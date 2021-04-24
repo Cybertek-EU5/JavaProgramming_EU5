@@ -26,12 +26,12 @@ public class Salary {
 
 	
 	public String toString() {  // allows us to print salary object
-		return "Salary [rate= $" + rate 
+		return "Salary {rate= $" + rate 
 				+ ", weeklyHour=" + weeklyHour 
 				+ ", taxRate=" + taxRate  
 				+", salary=$"+ salary()
 				+", total tax=$"+ totalTax()
-				+", salary after tax=$"+salaryAfterTax()+"]";
+				+", salary after tax=$"+salaryAfterTax()+"}";
 	}
 
 	
