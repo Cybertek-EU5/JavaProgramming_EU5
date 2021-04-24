@@ -6,12 +6,14 @@ public class Salary {
 	public int weeklyHour;
 	public double taxRate;
 	
+	
 	public void setInfo(double hourlyRate, int numberOfHours, double tax ) {
 		rate = hourlyRate;
 		weeklyHour = numberOfHours;
 		taxRate = tax;
 	}  // to be able to initialize all instance variables of salary object
 	
+
 	public double salary() {  // salary before tax
 		return rate * weeklyHour * 52;  // annual salary
 	}
