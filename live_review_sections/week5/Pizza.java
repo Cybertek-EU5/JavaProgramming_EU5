@@ -10,7 +10,7 @@ public class Pizza {
 		size = pizzaSize;
 		cheeseTopping = cheese;
 		pepperoniTopping = pepperoni;
-	}
+	} // helps us to set the attributes of Pizza
 	
 	public double calculatePrice() {
 		int startingPrice = (size.equals("small"))? 10 
@@ -20,7 +20,7 @@ public class Pizza {
 		int totalPriceOfPepproni = 2 * pepperoniTopping;
 		
 		return startingPrice + totalPriceOfCheese + totalPriceOfPepproni;
-	}
+	} // returns the total price of the pizza
 
 	
 	public String toString() {
