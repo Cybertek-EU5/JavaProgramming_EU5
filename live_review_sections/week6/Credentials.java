@@ -22,12 +22,9 @@ public class Credentials {
 
 		} else { // user entered username & password are incorrect: 3 more tries
 
-			for (int i = 1; i <= 3; i++) {
+			for (int i = 1; i <= 3; i++) { // user gets three tries
 
-				if(i == 3) {
-					System.err.println("your account is locked, please contact with costomer service");
-					System.exit(0);
-				}
+			
 				
 				System.out.println("Username or password is incorrect!");
 				System.out.println("Please re-enter your username");
@@ -41,6 +38,10 @@ public class Credentials {
 					break;
 				}
 				
+				if(i == 3) { // if attempt already is 3 and U&P are still incorrect
+					System.err.println("your account is locked, please contact with costomer service");
+					System.exit(0);
+				}
 				
 				
 			}
@@ -49,7 +50,7 @@ public class Credentials {
 		}
 		
 		
-		
+		scan.close();
 		
 
 	}
