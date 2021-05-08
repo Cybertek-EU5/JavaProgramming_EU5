@@ -146,22 +146,72 @@ public class ArraysUtility {
 		return arr3;
 	}
 	
-	// merges two arrays of String
-		public static String[] merge(String[] arr1, String[] arr2) {
-			String[] arr3 = new String[arr1.length + arr2.length];  //Make sure that this array can contain all the elements of arr1 & arr2
-			int i = 0; // will represents the index numbers of third array
-			
-			for (String each : arr1) {
-				  arr3[i++]=each;
-			}
-			
-			for (String each : arr2) {
-				arr3[i++] = each;
-			}
-			return arr3;
+// merges two arrays of String
+	public static String[] merge(String[] arr1, String[] arr2) {
+		String[] arr3 = new String[arr1.length + arr2.length];  //Make sure that this array can contain all the elements of arr1 & arr2
+		int i = 0; // will represents the index numbers of third array
+		
+		for (String each : arr1) {
+			  arr3[i++]=each;
 		}
+		
+		for (String each : arr2) {
+			arr3[i++] = each;
+		}
+		return arr3;
+	}
+
+		
+	//adds the element into the array
+	public static  int[] addElement(int[] arr, int element) {
+		int[] newArray = new int[arr.length + 1]; // {1,2,3,4}
+		 int i = 0; 
+		 for (int each : arr) {
+			 newArray[i++]= each;
+		 }
+		 
+		 newArray[i] = element;
+		 return newArray;
+	}
+	
+	
+	//adds the element double the array
+	public static  double[] addElement(double[] arr, double element) {
+		double[] newArray = new double[arr.length + 1]; // {1,2,3,4}
+		 int i = 0; 
+		 for (double each : arr) {
+			 newArray[i++]= each;
+		 }
+		 
+		 newArray[i] = element;
+		 return newArray;
+	}
+	
+	
+	//adds the element char the array
+	public static  char[] addElement(char[] arr, char element) {
+		char[] newArray = new char[arr.length + 1]; // {1,2,3,4}
+		 int i = 0; 
+		 for (char each : arr) {
+			 newArray[i++]= each;
+		 }
+		 
+		 newArray[i] = element;
+		 return newArray;
+	}
 
 	
+	//adds the element String the array
+	public static String[] addElement(String[] arr, String element) {
+		String[] newArray = new String[arr.length + 1]; // {1,2,3,4}
+		 int i = 0; 
+		 for (String each : arr) {
+			 newArray[i++]= each;
+		 }
+		 
+		 newArray[i] = element;
+		 return newArray;
+	}
 	
 	
 	
