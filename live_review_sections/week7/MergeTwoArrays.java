@@ -2,6 +2,8 @@ package week7;
 
 import java.util.Arrays;
 
+import utilities.ArraysUtility;
+
 public class MergeTwoArrays {
 	
 	public static void main(String[] args) {
@@ -25,6 +27,17 @@ public class MergeTwoArrays {
 		System.out.println("-------------------------------------------------------------");
 		
 		String[] group1 = {"Bilal", "Kunduz", "Berk"};		
+		String[] group2 = {"Azat", "Serap", "Akhtam"};
+		String[] group3 = {"Umit", "Nur", "Sema"};
+		
+		String[] names = ArraysUtility.merge(group1, group2);
+		
+		System.out.println(Arrays.toString(names));
+		
+		String[] allNames = merge(group1, group2, group3);
+		
+		System.out.println(Arrays.toString(allNames));
+		
 		
 		
 	}
@@ -42,6 +55,23 @@ public class MergeTwoArrays {
 			arr3[i++] = each;
 		}
 		return arr3;
+	}
+	
+	public static String[] merge(String[] arr1, String[] arr2, String[] arr3) {
+		return  ArraysUtility.merge( ArraysUtility.merge(arr1, arr2),  arr3);
+	}
+	
+	
+	public static int max(int a, int b) {
+		return a>=b ? a : b;
+	}
+	
+	public static int max (int a, int b, int c) {
+		return   max( max(a,b), c);
+	}
+	
+	public static int max(int a, int b, int c, int d) {
+		return max( max(a,b), max(c,d)       );
 	}
 	
 	
