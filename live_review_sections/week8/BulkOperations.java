@@ -53,7 +53,7 @@ public class BulkOperations {
 		ArrayList<Integer>  nums2 = new ArrayList<>();
 		nums2.addAll(Arrays.asList(1,1,1,2,2,3,3,3,4,5,6,7,8,1,1,2,2,2,3,34,4,6,7,8,9,10));
 		
-		nums2.removeIf( each -> each < 5 );
+		nums2.removeIf( each ->  each < 5 );
 		
 		System.out.println(nums2);
 		
