@@ -1,6 +1,6 @@
 package week8;
 
-public class DogPark {
+public class DogPark {  // Dogpark HAS A Dog
 
 	public static void main(String[] args) {
 		
