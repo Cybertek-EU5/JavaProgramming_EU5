@@ -2,7 +2,7 @@ package week8;
 
 public class Notes {
 	/*
-	 05/15/2021
+	05/15/2021
 Review Topics:
 			Constructors
 			ArrayList
@@ -104,21 +104,37 @@ Task2:
 
 					if the carpet is persian carpet: + 300
 
+3 data structures:
+
+		1. Array: supports primitives & non-primitives. size is fixed
+		2. Collection: supports non-primitives ONLY. size is dynamic
+		3. Map: supports non-primitives ONLY
+
+
+ArrayList: part of Collection. internally uses array
+
+
+
+		[10,20,10,30,20,20,20,30,40,10,30,40, 20]    //{10,20,30,40}
+
+		removeif( p -> booleanCondition)
+
+
+Arrays.sort()
+Arrays.asList(): converts array(non-primitives) to collectionType
+
+bulk operations: only accepts collection type
+	addAll(): adds multiple elements
+	removeAll():
+	retainAll
+	containsAll
 
 
 
 
-come back at:   12:30 pm  EST 
 
 
-
-
-
-
-
-
-
-		
+				
 	 */
 
 }
