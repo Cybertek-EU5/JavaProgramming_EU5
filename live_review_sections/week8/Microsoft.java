@@ -7,7 +7,8 @@ public class Microsoft {  // Microsoft HAS A Employee
 		 Employee[] testers = {	new Employee("Kunduz", "SDET", 123, 150000),
 				 					new Employee("Zina", "QE", 321, 170000),
 				 					new Employee("Murat", "QA", 789, 105000),
-				 					new Employee("Bunyamin", "SDET", 852, 85000)
+				 					new Employee("Bunyamin", "SDET", 852, 85000),
+				 					
 		 						};
 		 
 		 double maxSalary = 0;  // 150000
