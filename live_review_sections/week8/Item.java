@@ -12,15 +12,12 @@ public class Item {
 		this.quantity = quantity;
 	}
 	
-	
 	public double calCost() {
 		return price * quantity;
 	}
-
 
 	public String toString() {
 		return "Item [name=" + name + ", price=" + price + ", quantity=" + quantity + "]";
 	}
 	
-
 }
