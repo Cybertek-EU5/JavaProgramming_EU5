@@ -34,6 +34,14 @@ public class Scrumteam {
 
 	
 	
+	public void removeTester(int id) {  // removes the tester with the given ID
+		testers.removeIf(p -> p.employeeId == id);
+	}
+	
+	public void removeDeveloper(int id) { // removes the developer with the given ID
+		developers.removeIf(p -> p.employeeId == id);
+	}
+	
 	
 	public String toString() { // prints the PO, SM, BA, total number of tester  and total number of developers
 		return "Scrumteam [PO=" + PO + ", BA=" + BA + ", SM=" + SM + ", testers=" 
