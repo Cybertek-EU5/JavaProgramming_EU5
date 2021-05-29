@@ -1,6 +1,7 @@
 package week10;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Scrumteam {
 	
@@ -15,7 +16,13 @@ public class Scrumteam {
 		SM = sM;
 	}
 	
+	public void addTester(Tester tester) {  // adds one tester into the testers arraylist
+		testers.add(tester);
+	}
 	
+	public void addTester(Tester[] testers) { // adds each testers from given array to the arraylist testers
+		this.testers.addAll( Arrays.asList( testers )  );
+	}
 	
 	
 	
