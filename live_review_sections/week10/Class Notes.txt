@@ -1,0 +1,6 @@
+29/05/2021
+week 10 Review Topics: Static
+			   static vs Instance
+			   Inheritance
+
+
