@@ -2,9 +2,9 @@ package week10;
 
 public class CybertekStudent {
 	
-	public String name;
-	public int age;
-	public String batch;
+	public  String name;
+	public  int age;
+	public  String batch;
 	
 	public CybertekStudent(String name, int age, String batch) {
 		this.name = name;
@@ -33,6 +33,14 @@ public class CybertekStudent {
 		System.out.println("Student Name: "+name);
 		System.out.println("Programming Language: "+programmingLanguage);
 	}
+
+	@Override
+	public String toString() {
+		return "CybertekStudent [name=" + name + ", age=" + age + ", batch=" + batch + "]";
+	}
+	
+	
+	
 	
 
 }
