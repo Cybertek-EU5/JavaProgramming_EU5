@@ -24,6 +24,14 @@ public class Scrumteam {
 		this.testers.addAll( Arrays.asList( testers )  );
 	}
 	
+	public void addDeveloper(Developer developer) {
+		developers.add(developer);
+	}
+	
+	public void addDeveloper(Developer[] developers) {
+		this.developers.addAll( Arrays.asList(developers)  );
+	}
+	
 	
 	
 	
