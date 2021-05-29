@@ -34,13 +34,11 @@ public class Scrumteam {
 
 	
 	
-	public String toString() {
+	
+	public String toString() { // prints the PO, SM, BA, total number of tester  and total number of developers
 		return "Scrumteam [PO=" + PO + ", BA=" + BA + ", SM=" + SM + ", testers=" 
 	+ testers.size() + ", developers="+ developers.size() + "]";
 	}
-	
-	
-	
 	
 	
 
