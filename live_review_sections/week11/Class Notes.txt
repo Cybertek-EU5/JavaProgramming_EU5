@@ -5,8 +5,19 @@ Review Topics: Inheritance
 
 
 method overriding: giving different implementations to a method
+
+					ONLY instance methods can be overriden (cannot be final and private)
 					
 					MUST happen in sub class
+
+					Access modifier need to be same or morw visible
+							public > protected > default
+
+					return-type, method name, parameters MUST be same
+
+					@Override annotation must be applicable
+
+
 
 			advantages:
 					flexible
@@ -84,16 +95,40 @@ Object Class: parent of all classes
 
 
 
+WebDriver
+	get()
+	close()
+
+
+ChromeDriver:
+			get(URL): opens url in chrome browser
+			close()
+
+FirewFoxDriver:
+			get(URL):  opens url in firefox browser
+			close()
+
+OperaDriver:
+			get(URL):  opens url in Opera browser
+			close()
 
 
 
 
+100 test cases (classes)
 
 
 
+TestBase
+	webdriver=  firefox
 
-		
+	setUP(): opens browser
+			 maximizes browser
+			 implicitwait
+			 
 
+	tearDown():
+		close browser
 
 
 
