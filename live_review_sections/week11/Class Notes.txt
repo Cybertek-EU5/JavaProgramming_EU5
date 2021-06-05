@@ -4,4 +4,127 @@ Review Topics: Inheritance
 
 
 
+method overriding: giving different implementations to a method
+					
+					MUST happen in sub class
+
+			advantages:
+					flexible
+					less memory
+					reusable
+
+
+Shape
+	attribute:
+		 name
+
+	 action:
+	 	area(): 0
+	 	perimeter(): 0
+	 	toString()
+
+
+
+Circle extends Shape
+		area(): r*r*PI
+
+Rectangle extends Shape
+		area(): w*l
+
+Square extends Shape
+		area(): side *side
+
+
+	with method overriding:
+			1 method 3 implmentations
+
+	without overriding:
+			3 methods 3 implemntations
+
+
+
+
+
+Car:
+	attributes:
+		make, model, year, color....
+
+	actions:
+		start()
+		stop()
+		driver()
+		.....
+
+
+Toyota extends Car
+	start(): twist the key
+
+Mercedes extends Car
+	start(): push start button
+
+Tesla extends Car
+	start(): voice Control
+
+BMW extends Car
+	start(): call mechanic
+			 jump start
+
+
+	 with overriding:
+	 		1 method 4 implementations
+
+	 without overriding:
+	 		4 methods 4 implementations
+
+
+
+
+Object Class: parent of all classes
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
