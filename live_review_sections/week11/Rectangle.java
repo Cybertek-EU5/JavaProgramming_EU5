@@ -1,5 +1,7 @@
 package week11;
 
+import java.text.DecimalFormat;
+
 public class Rectangle extends Shape{
 	
 	public double width, length;
@@ -20,6 +22,19 @@ public class Rectangle extends Shape{
 		return (width+length)*2;
 	}
 
+	@Override
+	public String toString() {
+		DecimalFormat df = new DecimalFormat("0.00");
+
+		return "Rectangle [width= " + width 
+				+ ", length= " + length 
+				+ ", area= " + df.format( area() )
+				+ ", perimeter= " + df.format( perimeter() ) + "]";
+	}
+
+	
+	
+	
 		
 
 }

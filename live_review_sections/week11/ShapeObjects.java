@@ -10,9 +10,19 @@ public class ShapeObjects {
 	
 	public static void main(String[] args) {
 		
-		Circle circle1 = new Circle(2.5);
+		Circle circle = new Circle(2.5);
 		
-		System.out.println(circle1);
+		System.out.println(circle);
+		
+		Rectangle rectangle = new Rectangle(10, 20);
+		
+		System.out.println(rectangle);
+		
+		
+		Square square = new Square(5);
+		
+		System.out.println(square);
+		
 		
 		
 		
