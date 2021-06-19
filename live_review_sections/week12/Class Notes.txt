@@ -41,21 +41,18 @@ OOP Abstraction: focusing on essnetials without worrying about the details of th
 
 	    2 ways:
 	    	1. Abstract Class: meant to be parent (cannot be final)
-
-
-
+	    				 		not concrete, we cannot create an object from it
 
 
 	    	2. Interface
 
 
-
-
-
-
-
-Shape:
+interface volume:
 	
+	volume();
+
+
+abstract Shape:
 	abstract area();
 	abstract perimeter(); 
 
@@ -68,13 +65,29 @@ Rectangle
 	perimeter(): 2*(w+l)
 
 
-
-Car
-
+cylinder extends Shape implements volume
 
 
-come back at 12:15 PM EST
+cube extends Shape implement volume
 
+
+
+abstract Car:
+	model, make, year, color, price....
+
+	abstract start();
+
+Toyota extends Car:
+		start(): twist the key
+
+BMW extends Car:
+		start(): push start button
+
+Tesla extends Car:
+		start(): voice Control
+
+Jeep extends Car:
+		start(): jumpstart
 
 
 

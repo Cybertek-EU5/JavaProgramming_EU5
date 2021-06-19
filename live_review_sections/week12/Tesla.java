@@ -9,7 +9,7 @@ public final class Tesla extends Car {
 
 	@Override
 	public void start() {
-		System.out.println("Say Strat");
+		System.out.println("Say Start");
 	
 	}
 	
