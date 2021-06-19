@@ -66,10 +66,14 @@ Rectangle
 
 
 cylinder extends Shape implements volume
-
+		area()
+		perimeter()
+		volume()
 
 cube extends Shape implement volume
-
+		area()
+		perimeter()
+		volume()
 
 
 abstract Car:
