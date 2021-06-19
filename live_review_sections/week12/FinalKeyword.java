@@ -10,7 +10,7 @@ final class Test{
 }
 
 
-public class FinalKeyword extends Test {
+public class FinalKeyword  {
 	
 	/*
 	@Override

@@ -21,7 +21,6 @@ public class Shape {
 	}
 
 
-
 	public String toString() {
 		DecimalFormat df = new DecimalFormat("0.00");
 		
@@ -29,9 +28,6 @@ public class Shape {
 				", area= " +  df.format( area() ) + 
 				", perimeter= " + df.format( perimeter() ) + "]";
 	}
-	
-	
-	
 	
 	
 	
