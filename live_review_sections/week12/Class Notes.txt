@@ -1,4 +1,81 @@
 06/19/2021
 Review Topics: Final Keyword
-			   Abstraction
+			   OOP Abstraction
+
+
+final: constant
+
+	1. variable: cannot re-assigned
+				final variables MUST be initialized before use
+
+	2. method: cannot be overriden
+
+	3. class: immutable. class cannot be parent class
+
+
+
+
+Example:
+	Phone:
+		brand, model, screnSize, OS
+
+		call(), text()
+
+
+	final iPhone extends Phone:
+
+		facetime();
+
+
+	final Samsung extends Phone :
+		freeze()
+
+
+
+OOP Abstraction: focusing on essnetials without worrying about the details of the method
+				 focusing on what it is, instead of how t's done
+		
+		abstract method: a method that does not have body
+						 meant to be overriden (cannot be fina, private, static)
+
+
+	    2 ways:
+	    	1. Abstract Class: meant to be parent (cannot be final)
+
+
+
+
+
+	    	2. Interface
+
+
+
+
+
+
+
+Shape:
+	
+	abstract area();
+	abstract perimeter(); 
+
+Circle
+	area(): r*r*PI
+	perimeter(): r*2*PI
+
+Rectangle
+	area(): l*w
+	perimeter(): 2*(w+l)
+
+
+
+Car
+
+
+
+come back at 12:15 PM EST
+
+
+
+
 
