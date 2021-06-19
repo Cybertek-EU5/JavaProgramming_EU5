@@ -2,7 +2,7 @@ package week11;
 
 import java.text.DecimalFormat;
 
-public class Circle extends Shape {
+public final class Circle extends Shape {
 	
 	public double radius;
 	

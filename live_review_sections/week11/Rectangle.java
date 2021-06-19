@@ -2,7 +2,7 @@ package week11;
 
 import java.text.DecimalFormat;
 
-public class Rectangle extends Shape{
+public final class Rectangle extends Shape{
 	
 	public double width, length;
 

@@ -2,7 +2,7 @@ package week11;
 
 import java.text.DecimalFormat;
 
-public class Square extends Shape{
+public final class Square extends Shape{
 	
 	public double side;
 
