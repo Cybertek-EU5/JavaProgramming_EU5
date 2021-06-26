@@ -1,6 +1,6 @@
 package week13;
 
-public class Dolphin extends Animal implements Hunt, Swimmable {
+public class Dolphin extends Animal implements Hunt, Swimmable, Playable {
 
 	public Dolphin() {
 		super("Dolphin");
@@ -21,6 +21,12 @@ public class Dolphin extends Animal implements Hunt, Swimmable {
 	@Override
 	public void swim() {
 		System.out.println(name+" is swimming");
+		
+	}
+
+	@Override
+	public void friendly() {
+		System.out.println(name +" is friendly");
 		
 	}
 	
