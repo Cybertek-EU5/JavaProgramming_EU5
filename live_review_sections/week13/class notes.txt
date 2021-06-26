@@ -114,7 +114,53 @@ extends vs implements:
 
 
 
-come back 12:30 pm USA EST
+
+Polymorphism: behaviors of the objects in many forms
+
+				parent can be reference to child objects
+
+				reference type decides what we can call
+				object type decides what implementation gets executed 
+
+		Animal animal = new Dog();
+						new Lion();
+						....
+
+
+		WebDriver driver = new ChromeDriver();
+						   new FireFoxDriver();
+						   ....
+
+				    driver.get()
+
+2 types of castings:
+	
+	1. Primitive type casting
+			implicit casting: casting smaller primitive type to larger
+							  Done implicitly
+
+							  int a = 10;
+							  double b =a;
+
+			explicit casting: casting larger primitive type to smaller
+							  Done manually
+
+
+	2. Reference type casting: THERE HAS TO BE IS A RELATIONSHIP
+
+			up-casting: casting smaller type  to larger
+						Done implicitly
+
+						Dog dog1 = new Dog();
+						Animal animal1 = dog1;
+
+			down-casting: casting larger type to smaller
+							Done manually
+
+					Animal animal = new Dog();
+					Dog dog = (Dog)animal;
+
+
 
 
 
