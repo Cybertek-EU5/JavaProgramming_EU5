@@ -48,6 +48,64 @@ throw keyword: manually throws exception
 
 
 
+WebDriver driver =   new Chrome() ;
+
+(chrome)driver
+
+
+
+
+OOP: Object Oreinted programming
+	
+	design pattern of the application in an organized and modular way
+
+	increases reusability
+	less codes
+	less memory usage
+	more efficient
+	more organized
+	easy to maintain
+	clear structure
+
+
+	Ecapsulation: data hiding
+
+	Inheritance: budiling IS A relationship between classes (super/sub)
+
+	Abstraction: hiding the implementations/details of the method
+
+	Polymorphism: behaviors of the objects in different forms
+
+				Animal animal = new Dog();
+					animal.eat();
+
+				WebDriver driver = new ChromeDriver();
+					driver = new FireFoxDriver();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
