@@ -52,8 +52,10 @@ public class ExceptionHandlings_TryCatch {
 		System.out.println("---------------------------------");
 		
 		try {
+			
 			System.out.println("Cybertek".charAt(200));
 			System.out.println("Try Block");
+			
 		}catch(RuntimeException e) {
 			System.out.println("Catch Block");
 		//	System.exit(0); terminates the program
@@ -61,6 +63,17 @@ public class ExceptionHandlings_TryCatch {
 			System.out.println("Finally Block");
 		}
 		
+		
+		
+		System.out.println("Test 4 Completed");
+		
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		
 	}
