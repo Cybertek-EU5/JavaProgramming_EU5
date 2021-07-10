@@ -2,3 +2,58 @@
 Review topics: Exceptions
 			   OOP Summary
 
+
+Exception: unexpected or unwanted events
+	
+	unchecked exceptions (unexpected event): run time exceptions
+					RuntimeException class is the parent of all unchecked exceptions
+
+				20 / 0
+
+
+	checked exceptions (unwanted): compile time exceptions
+					all exception classes that are not child of runtime exception
+
+
+Exception Handlings:
+	
+	1. try & catch blocks: can handle any checked and unchecked exceptions
+
+			try{
+				exception code
+			}catch(ExceptionClass e){
+					statement
+			}finally{
+					statements
+			}
+
+
+
+	2. throws keyword: can ONLY handle checked exceptions
+
+					the caller of the method will be responsible for handling the exception
+
+
+
+throw keyword: manually throws exception
+
+
+
+		chrome, firefox, opera, safari....
+
+		Cybertek
+			throw new RuntimeException("Invalid Browser name is given");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
