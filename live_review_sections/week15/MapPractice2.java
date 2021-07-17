@@ -1,5 +1,6 @@
 package week15;
 
+import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -52,7 +53,19 @@ public class MapPractice2 {
 	        	
 	        }
 	        
+	        System.out.println("---------------------------------------");
+	        // forEach() method
 	        
+	        scores.forEach( (k, v) -> { System.out.println(k+" : "+v); }  );
+	        
+	        System.out.println("---------------------------------------");
+	        
+	        int max =  Collections.max(   scores.values() );
+	       // String name = "";
+	        
+	        scores.forEach(  (k,v) ->  {  if(max == v) { System.out.println(k); }       } );
+	        
+	        System.out.println(max);
 		
 		
 	}
