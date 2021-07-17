@@ -46,7 +46,7 @@ Collection framework: consists of multiple interfaces
 					TreeSet(C): in sorted order. does not accept null
 
 
-			Queue (I): does not accept duplicates, does not have index number. FIFO
+			Queue (I):  accept duplicates, does not have index number. FIFO ( poll )
 
 
 

@@ -1,9 +1,11 @@
 package week15;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
@@ -60,7 +62,45 @@ public class CollectionsReview {
 		
 		System.out.println("------------------------------------------------");
 		
-		Queue<Integer>  queue1 = new PriorityQueue<>();
+		Queue<Integer>  queue1 = new ArrayDeque<>();  //FIFO
+		queue1.addAll(Arrays.asList(10,10,11,11,12,12,13,5,4,3,2,1));
+		System.out.println(queue1);
+		
+		queue1.poll(); // 10
+		queue1.poll(); //10
+		queue1.poll(); // 11
+		
+	//	queue1.add(null); // arrayDeque does not accept null
+		
+		System.out.println(queue1);
+	//	System.out.println( queue1.get(0) );
+		
+		System.out.println("----------------------------------");
+		
+		Queue<Integer>  queue2 = new LinkedList();
+		queue2.addAll(Arrays.asList(10,12,13,5,4,3,2,1));
+		System.out.println(queue2);
+		queue2.poll(); 
+		queue2.poll(); 
+		
+		queue2.add(null);
+		
+		System.out.println(queue2);
+		
+		System.out.println(   ( (LinkedList<Integer>)queue2 ).get(3)   );
+		
+		System.out.println("-------------------------------------");
+		
+		
+		Queue<Integer>  queue3 = new PriorityQueue();
+		queue3.addAll(Arrays.asList(10,10,11,11,12,12,13,5,4,3,2,1));
+		
+		System.out.println(queue3);
+		
+		queue3.poll(); // decreases the size of priorityqueue
+		
+		System.out.println(queue3);
+		
 		
 		
 		
