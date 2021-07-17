@@ -79,9 +79,6 @@ Map (I): pair of data. key & value format. key cannot be duplicated
 
 
 
-
-
-
 synchronized: used for achieving thread-safety
 		
 		advantage: thread-safe
