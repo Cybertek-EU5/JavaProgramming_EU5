@@ -1,6 +1,9 @@
 package week15;
 
+import java.util.Map;
 import java.util.TreeMap;
+
+import com.sun.corba.se.impl.encoding.OSFCodeSetRegistry.Entry;
 
 public class MapPractice2 {
 	
@@ -34,7 +37,20 @@ public class MapPractice2 {
 	        
 	        System.out.println("------------------------------------");
 	        // iterate map by values:
-	        for(   : scores.values())
+	        for( Integer eachValue  : scores.values()) {
+	        	System.out.println(eachValue);
+	        }
+	        
+	        System.out.println("-----------------------------------------");
+	        // iterate the map by Entry
+	        
+	        for( Map.Entry<String, Integer>  each : scores.entrySet()) {
+	        	//System.out.println(each);
+	        	
+	        	System.out.println(each.getKey() +" : " + each.getValue());
+	        	
+	        	
+	        }
 	        
 	        
 		
