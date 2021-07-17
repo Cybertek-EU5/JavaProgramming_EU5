@@ -117,32 +117,5 @@ paralelly executing: multiple process with multiple threads
 
 
 
-come back at 2:15 PM US EST
-
-
-Task:
-	 1. write a program that stores the duplicated characters from a string into a map
-        
-            Ex: 
-                str = "aabcccdee"; //a2b1c3d1e2  
-                output:
-                    {a=2, c=3, e=2}
-
-    2. write a program that stores the unique characters from a string into a map
-        
-            Ex: 
-                str = "abacbdeef";
-
-                output:
-                    {c=1, d=1, f=1}
-
-
-
-
-
-
-
-
-
 
 
