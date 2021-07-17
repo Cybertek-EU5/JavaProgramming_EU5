@@ -49,7 +49,20 @@ Collection framework: consists of multiple interfaces
 			Queue (I):  accept duplicates, does not have index number. FIFO ( poll )
 
 
+	Iterable: Root interface of the collection
 
+		classes that are implementing iterable gains the ability to iterate the objects by using iterator interface
+
+			Iterator (I):
+					allows us to get acces to each object of collection
+					allows us to remove the object from the collection
+
+				hasNext(): checkes if there is element that can be iterated. returns boolean 
+
+				next():  if hasNext() ==> true ===> can access to the element
+						 if hasNext() ==> false ===> exit
+
+				remove(): removes the object
 
 
 
